@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#F7F7F7;
+}
+
+.navbar{
+    height: 70px;
+    background-color: #FFFFFF;
+}
+
+span{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#list{
+    color:#00A5EC;
+}
+
+.circle{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #00A5EC;
+    
+}
+.plus{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.icon-text{
+    display: flex;
+    justify-content: flex-end;
+    /* margin:50px 80px 50px 0px ; */
+    padding:40px 80px 40px 0px  ;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  
+}
+
+.box{
+    width: 300px;
+    height: 280px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px gray;
+}
+h2{
+    padding: 20px;
+    color: #00A5EC;
+}
+input{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+input[type="checkbox"]{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+label{
+    text-decoration: line-through;
+    color: #ded9d9;
+}
+
+.box6{
+    visibility: hidden;
+}
+
+
+
+/* Second page code */
+
+.parent{
+    filter: blur(7px);
+}
+
+.add-new-task{
+    width: 400px;
+    height: 200px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    position: absolute;
+    left: 34%;
+    bottom: 32%;
+}
+
+.addtask {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #2c0b8e;
+    background: #2c0b8e;
+  }
+  .addtask:hover {
+    background: #fff;
+    color: #2c0b8e
+  }
+
+
+  @media only screen and (min-width:300px) and (max-width:600px){
+
+    .icon-text{
+        padding: 30px 100px 30px 0px;
+    }
+
+    .addtext{
+        visibility: hidden;
+        /* display: none; */
+    }
+
+    .box{
+        width: 380px;
+        height: 320px;
+    }
+
+  }
